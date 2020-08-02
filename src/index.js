@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Card from './components/Card';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <Card name={'Abraham'} age={23}/>
+    <Card name={'Ariana'} age={24}/>
+    <Card name={'Maximus'} age={3}/>
+  </div>,
   document.getElementById('root')
 );
 
