@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Card from './components/Card';
+
+import App from './App'
+
 import * as serviceWorker from './serviceWorker';
 import 'tachyons'
 
 ReactDOM.render(
   <div>
-    <Card name={'Abraham'} age={23}/>
-    <Card name={'Ariana'} age={24}/>
-    <Card name={'Maximus'} age={3}/>
+    <App />
   </div>,
   document.getElementById('root')
 );
