@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Thuner Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Thuner Regular'), url('Thuner-MVLyP.woff') format('woff');
+  }
+  h1 {
+    font-family: 'Thuner Regular';
+  }
